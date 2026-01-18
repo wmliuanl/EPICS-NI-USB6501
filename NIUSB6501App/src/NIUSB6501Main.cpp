@@ -23,6 +23,8 @@ struct usb_device *niusb_dev;
 struct usb_dev_handle *niusb_handle;
 bool NoUSB6501;
 unsigned char niusb_port0,niusb_port1,niusb_port2;
+unsigned char port0_mode, port1_mode, port2_mode;
+unsigned char port0_RB, port1_RB, port2_RB;
 
 
 int main(int argc,char *argv[])
@@ -47,7 +49,9 @@ int main(int argc,char *argv[])
         printf("Unable to open file!");
         return 0;
     }
-    
+    port0_mode=0xff;
+    port1_mode=0xff;
+    port2_mode=0xff;
     if(NoUSB6501==false) {
         niusb6501_set_io_mode(niusb_handle, 0xff, 0xff, 0xff);
         fprintf(fp,"epicsEnvSet HasNIUSB6501 Yes\n");
@@ -72,6 +76,47 @@ int main(int argc,char *argv[])
 extern "C" {
 void SetBVal(int ChIndx,long val);
 long GetBVal(int ChIndx);
+void SetDirection(int ChIndx,long val);
+
+void SetDirection(int ChIndx, long val)
+{
+    unsigned char mask,mask1;
+    int port,pos;
+    port= floor(ChIndx /8);
+    pos=ChIndx % 8;
+    mask=1<<pos;
+    mask1=~mask;
+    switch (port) {
+        case 0:
+            if(val==0) {
+                port0_mode &= mask1 ;
+            }
+            else {
+                port0_mode |= mask;
+            }
+            break;
+        case 1:
+            if(val==0) {
+                port1_mode &= mask1 ;
+            }
+            else {
+                port1_mode |= mask;
+            }
+            break;
+        case 2:
+            if(val==0) {
+                port2_mode &= mask1 ;
+            }
+            else {
+                port2_mode |= mask;
+            }
+            break;
+        default:;
+    }
+	niusb6501_set_io_mode(niusb_handle, port0_mode, port1_mode, port2_mode);
+    return ;    
+}
+	
 
 
 void SetBVal(int ChIndx,long val) 
@@ -120,18 +165,40 @@ long GetBVal(int ChIndx)
 {
     unsigned char mask,rval;
     int port,pos;
+    int status;
     port= floor(ChIndx /8);
+    
     pos=ChIndx % 8;
     mask=1<<pos;
+    if(ChIndx<0) {
+            status=niusb6501_read_port(niusb_handle,0,&port0_RB);
+            if(status)
+			{
+				fprintf(stderr, "error write port 0: %s\n", strerror(-status));
+			}
+
+            status=niusb6501_read_port(niusb_handle,1,&port1_RB);
+            if(status)
+			{
+				fprintf(stderr, "error write port 1: %s\n", strerror(-status));
+			}
+            status=niusb6501_read_port(niusb_handle,2,&port2_RB);
+            if(status)
+			{
+				fprintf(stderr, "error write port 2: %s\n", strerror(-status));
+			}
+			return 0;
+	}
+			
     switch (port) {
         case 0:
-            rval=niusb_port0 & mask;
+            rval=port0_RB & mask;
             break;
         case 1:
-            rval=niusb_port1 & mask;
+            rval=port1_RB & mask;
             break;
         case 2:
-            rval=niusb_port2 & mask;
+            rval=port2_RB & mask;
             break;
         default:
             rval=0;

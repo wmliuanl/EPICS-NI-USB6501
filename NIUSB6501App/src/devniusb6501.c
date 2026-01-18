@@ -5,10 +5,11 @@
 #include <biRecord.h>
 #include <boRecord.h>
 #include <epicsExport.h>
+#include <string.h>
 
 void SetBVal(int ChIndx,long val);
 long GetBVal(int ChIndx);
-
+void SetDirection(int ChIndx,long val);
 
 long write_niusbbo();
 long read_niusbbi();
@@ -60,9 +61,16 @@ struct boRecord* prec;
     int chindx;
     prec->pact=TRUE;
     if (prec->out.type == INST_IO) {
-		if(sscanf(prec->out.value.instio.string,"Ch:%d",&chindx)==1) {
-            SetBVal(chindx, prec->val);
-        }
+		if(strstr(prec->out.value.instio.string,"Ch")) {
+			if(sscanf(prec->out.value.instio.string,"Ch:%d",&chindx)==1) {
+				SetBVal(chindx, prec->val);
+			}
+		}
+		else {
+			if(sscanf(prec->out.value.instio.string,"Mode:%d",&chindx)==1) {
+				SetDirection(chindx, prec->val);
+			}
+		}
     }
     prec->pact = FALSE;
     return(0);

@@ -16,6 +16,7 @@ NIUSB6501_registerRecordDeviceDriver(pdbbase)
 ## Load record instances
 dbLoadRecords("../../db/NIUSB6501.db","IOCName=RPi")
 dbLoadRecords("../../db/NIUSB6501_RB.db","IOCName=RPi")
+dbLoadRecords("../../db/NIUSB6501_Mode.db","IOCName=RPi")
 
 iocInit()
 

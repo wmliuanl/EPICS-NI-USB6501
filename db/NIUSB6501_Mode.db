@@ -1,0 +1,194 @@
+
+
+record(bo, "$(IOCName):NIUSB6501:Ch00_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH00")
+	field(OUT, "@Mode:0")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch01_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH01")
+	field(OUT, "@Mode:1")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch02_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH02")
+	field(OUT, "@Mode:2")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch03_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH03")
+	field(OUT, "@Mode:3")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch04_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH04")
+	field(OUT, "@Mode:4")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch05_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH05")
+	field(OUT, "@Mode:5")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch06_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH06")
+	field(OUT, "@Mode:6")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch07_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH07")
+	field(OUT, "@Mode:7")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch08_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH08")
+	field(OUT, "@Mode:8")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch09_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH09")
+	field(OUT, "@Mode:9")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch10_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH10")
+	field(OUT, "@Mode:10")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch11_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH11")
+	field(OUT, "@Mode:11")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch12_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH12")
+	field(OUT, "@Mode:12")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch13_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH13")
+	field(OUT, "@Mode:13")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch14_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH14")
+	field(OUT, "@Mode:14")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch15_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH15")
+	field(OUT, "@Mode:15")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch16_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH16")
+	field(OUT, "@Mode:16")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch17_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH17")
+	field(OUT, "@Mode:17")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch18_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH18")
+	field(OUT, "@Mode:18")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch19_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH19")
+	field(OUT, "@Mode:19")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch20_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH20")
+	field(OUT, "@Mode:20")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch21_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH21")
+	field(OUT, "@Mode:21")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch22_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH22")
+	field(OUT, "@Mode:22")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch23_Mode") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH23")
+	field(OUT, "@Mode:23")
+	field(VAL, 1)
+	field(PINI, "YES")
+}
+
