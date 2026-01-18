@@ -1,0 +1,1 @@
+epicsEnvSet HasNIUSB6501 Yes

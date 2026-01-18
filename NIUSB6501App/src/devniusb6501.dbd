@@ -1,0 +1,2 @@
+device(bi,INST_IO,devNIUSB6501bi, "NIUSB6501")
+device(bo,INST_IO,devNIUSB6501bo, "NIUSB6501")

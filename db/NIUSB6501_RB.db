@@ -1,0 +1,194 @@
+
+
+record(bi, "$(IOCName):NIUSB6501:Ch00_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH00")
+	field(INP, "@Ch:0")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch01_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH01")
+	field(INP, "@Ch:1")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch02_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH02")
+	field(INP, "@Ch:2")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch03_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH03")
+	field(INP, "@Ch:3")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch04_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH04")
+	field(INP, "@Ch:4")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch05_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH05")
+	field(INP, "@Ch:5")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch06_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH06")
+	field(INP, "@Ch:6")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch07_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH07")
+	field(INP, "@Ch:7")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch08_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH08")
+	field(INP, "@Ch:8")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch09_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH09")
+	field(INP, "@Ch:9")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch10_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH10")
+	field(INP, "@Ch:10")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch11_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH11")
+	field(INP, "@Ch:11")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch12_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH12")
+	field(INP, "@Ch:12")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch13_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH13")
+	field(INP, "@Ch:13")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch14_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH14")
+	field(INP, "@Ch:14")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch15_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH15")
+	field(INP, "@Ch:15")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch16_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH16")
+	field(INP, "@Ch:16")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch17_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH17")
+	field(INP, "@Ch:17")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch18_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH18")
+	field(INP, "@Ch:18")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch19_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH19")
+	field(INP, "@Ch:19")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch20_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH20")
+	field(INP, "@Ch:20")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch21_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH21")
+	field(INP, "@Ch:21")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch22_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH22")
+	field(INP, "@Ch:22")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+
+record(bi, "$(IOCName):NIUSB6501:Ch23_RB") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH23")
+	field(INP, "@Ch:23")
+	field(VAL, 0)
+	field(SCAN, "1 second")
+}
+

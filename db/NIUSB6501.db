@@ -1,0 +1,194 @@
+
+
+record(bo, "$(IOCName):NIUSB6501:Ch00") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH00")
+	field(OUT, "@Ch:0")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch01") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH01")
+	field(OUT, "@Ch:1")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch02") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH02")
+	field(OUT, "@Ch:2")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch03") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH03")
+	field(OUT, "@Ch:3")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch04") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH04")
+	field(OUT, "@Ch:4")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch05") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH05")
+	field(OUT, "@Ch:5")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch06") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH06")
+	field(OUT, "@Ch:6")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch07") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH07")
+	field(OUT, "@Ch:7")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch08") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH08")
+	field(OUT, "@Ch:8")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch09") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH09")
+	field(OUT, "@Ch:9")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch10") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH10")
+	field(OUT, "@Ch:10")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch11") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH11")
+	field(OUT, "@Ch:11")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch12") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH12")
+	field(OUT, "@Ch:12")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch13") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH13")
+	field(OUT, "@Ch:13")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch14") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH14")
+	field(OUT, "@Ch:14")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch15") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH15")
+	field(OUT, "@Ch:15")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch16") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH16")
+	field(OUT, "@Ch:16")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch17") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH17")
+	field(OUT, "@Ch:17")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch18") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH18")
+	field(OUT, "@Ch:18")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch19") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH19")
+	field(OUT, "@Ch:19")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch20") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH20")
+	field(OUT, "@Ch:20")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch21") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH21")
+	field(OUT, "@Ch:21")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch22") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH22")
+	field(OUT, "@Ch:22")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
+record(bo, "$(IOCName):NIUSB6501:Ch23") {
+	field(DTYP, "NIUSB6501")
+	field(DESC, "USBDIO CH23")
+	field(OUT, "@Ch:23")
+	field(VAL, 0)
+	field(PINI, "YES")
+}
+
